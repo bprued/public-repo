@@ -1,0 +1,21 @@
+.pagination {
+  width: 100%;
+  display: flex;
+  padding: 25px;
+  box-sizing: border-box;
+  justify-content: center;
+  button {
+    border: none;
+    width: 30px;
+    height: 30px;
+    background: none;
+    cursor: pointer;
+    &.active {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}

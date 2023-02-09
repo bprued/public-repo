@@ -1,0 +1,20 @@
+table {
+    line-height: 3;
+    width: 100%;
+    th {
+        text-align: start;
+        background: #fafafa;
+        border-bottom: 1px solid #f0f0f0;
+        padding: 0 18px;
+    }
+    tbody {
+        tr {
+            &:hover {
+                background: #fafafa;
+            }
+            td {
+                padding: 0 18px;
+            }
+        }
+    }
+}
