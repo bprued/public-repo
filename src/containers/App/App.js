@@ -3,8 +3,8 @@ import { useQuery } from "react-query";
 import axios from "axios";
 import './App.scss';
 
-import Table from "./Container/Table";
-import Pagination from "./Container/Pagination";
+import Table from "../../componnents/Table";
+import Pagination from "../../componnents/Pagination";
 
 const ROW_PER_PAGE = 10
 
@@ -35,7 +35,7 @@ const App = () => {
     <div className="app-container">
       {isLoading? <h1>Loading...</h1> : 
       <>
-        <h1>Github Public repositories</h1>
+        <h1>Github Public Repositories</h1>
         {isFetching ? "Updating..." : 
           <>
             <Table data={getDataPerPage(currentPage)} />

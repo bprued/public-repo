@@ -1,7 +1,6 @@
 import './table.scss'
 
 const Table = ({ data }) => {
-  console.log(data)
   const getTableRow = () => (
     data.map((item) => {
       return (
@@ -19,7 +18,7 @@ const Table = ({ data }) => {
         <tr>
           <th style={{width: '20%'}}>ID</th>
           <th style={{width: '40%'}}>Name</th>
-          <th >Owner</th>
+          <th>Owner</th>
         </tr>
       </thead>
       <tbody>{getTableRow()}</tbody>

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app-container"
+  >
+    <h1>
+      Github Public Repositories
+    </h1>
+    <table>
+      <thead>
+        <tr>
+          <th
+            style="width: 20%;"
+          >
+            ID
+          </th>
+          <th
+            style="width: 40%;"
+          >
+            Name
+          </th>
+          <th>
+            Owner
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            1
+          </td>
+          <td>
+            test1
+          </td>
+          <td>
+            user1
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="pagination"
+    >
+      <button
+        disabled=""
+      >
+        &lt;
+      </button>
+      <button
+        class="active"
+      >
+        1
+      </button>
+      <button
+        disabled=""
+      >
+        &gt;
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -9,11 +9,13 @@ table {
     }
     tbody {
         tr {
+            border-bottom: 1px solid #f0f0f0;
             &:hover {
                 background: #fafafa;
             }
             td {
                 padding: 0 18px;
+                border-bottom: 1px solid #f0f0f0;
             }
         }
     }
